@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/acc_id"
+            android:title="@string/accelerometer_activity"
+            android:icon="@drawable/acc_ic"
+            />
+
+        <item
+            android:id="@+id/gyro_id"
+            android:title="@string/gyroscope_activity"
+            android:icon="@drawable/gyro_ic"
+            />
+
+        <item
+            android:id="@+id/prox_id"
+            android:title="@string/proximity_activity"
+            android:icon="@drawable/prox_ic"
+            />
+
+        <item
+            android:id="@+id/shake_id"
+            android:title="@string/shake_detection"
+            android:icon="@drawable/shake_ic"
+            />
+
+        <item
+            android:id="@+id/map_id"
+            android:title="@string/map_activity"
+            android:icon="@drawable/map_ic"
+            />
+
+        <item
+            android:id="@+id/gyro_data_id"
+            android:title="@string/gyroscope_data"
+            android:icon="@drawable/gyro_data_ic"
+            />
+
+    </group>
+</menu>
